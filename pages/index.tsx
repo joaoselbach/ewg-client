@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import Header from "../src/containers/header";
+import Caroussel from "../src/components/caroussel";
 
 const Home: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
       </Head>
 
       <Header />
+      <Caroussel />
     </>
   );
 };

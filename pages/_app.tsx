@@ -3,7 +3,8 @@ import { AppProps } from "next/app";
 
 import GlobalStyle from "../styles/global";
 
-import "antd/dist/antd.css";
+import "../node_modules/swiper/swiper-bundle.min.css";
+import "../node_modules/swiper/swiper.min.css";
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (

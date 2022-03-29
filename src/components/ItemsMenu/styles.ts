@@ -67,6 +67,7 @@ export const ItemSubList = styled.ul`
   left: 0;
   top: 100%;
   background-color: #fff;
+  z-index: 99;
   border-bottom: 2px solid #ec1415;
 `;
 

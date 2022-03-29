@@ -94,9 +94,9 @@ export const ItemsMenu = styled.ul`
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 100%;
   list-style-type: none;
   background-color: #ec1415;
-  width: 100%;
 `;
 
 export const ItemList = styled.li`
@@ -132,8 +132,8 @@ export const ItemSubList = styled.ul`
   width: 100%;
   left: 0;
   top: 45px;
-  background-color: #fff;
   border-bottom: 2px solid #ec1415;
+  background-color: #fff;
 `;
 
 export const ItemSubListContainer = styled.div`

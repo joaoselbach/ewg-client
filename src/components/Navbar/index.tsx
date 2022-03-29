@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-import SearchIcon from "../../assets/search.svg";
-import CartDesktop from "../../assets/cartDesktop.svg";
-import CartMobile from "../../assets/cartMobile.svg";
-import HamburguerMenuIcon from "../../assets/hamburguerMenu.svg";
-import CloseIcon from "../../assets/closeIcon.svg";
-import ArrowDown from "../../assets/arrowDown.svg";
-import Logo from "../../assets/logo.png";
+import SearchIcon from "../../assets/svg/search.svg";
+import CartDesktop from "../../assets/svg/cartDesktop.svg";
+import CartMobile from "../../assets/svg/cartMobile.svg";
+import HamburguerMenuIcon from "../../assets/svg/hamburguerMenu.svg";
+import CloseIcon from "../../assets/svg/closeIcon.svg";
+import ArrowDown from "../../assets/svg/arrowDown.svg";
+import Logo from "../../assets/img/logo.png";
 
 import {
   Category,
@@ -45,9 +45,7 @@ const NavBar = () => {
 
   return (
     <Container>
-      <HamburguerMenu
-        className={isActive ? "hamburguerMenuActive" : ""}
-      >
+      <HamburguerMenu className={isActive ? "hamburguerMenuActive" : ""}>
         <MenuHeader>
           <CloseButton onClick={() => setIsActive(!isActive)}>
             {isActive ? <CloseIcon /> : ""}
