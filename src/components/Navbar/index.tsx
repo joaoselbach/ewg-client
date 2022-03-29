@@ -33,8 +33,6 @@ const NavBar = () => {
   const [sectionActive, setSectionActive] = useState(false);
   const [showCategoryProducts, setShowCategoryProducts] = useState("");
 
-  console.log(showCategoryProducts);
-
   const toggleDropdown = (value) => {
     if (!showCategoryProducts) {
       setShowCategoryProducts(value);
