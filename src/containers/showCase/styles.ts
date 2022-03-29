@@ -57,5 +57,4 @@ export const SectionTitle = styled.div`
   font-weight: bold;
   color: #2e2e2e;
   margin-top: 40px;
-  max-width: 200px;
 `;

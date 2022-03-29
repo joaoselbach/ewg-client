@@ -1,5 +1,3 @@
-import { purifiers } from "../../containers/showCase/data";
-
 import {
   Container,
   ImgContainer,
