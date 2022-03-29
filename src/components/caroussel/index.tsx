@@ -1,14 +1,20 @@
-import SwiperCore, { Navigation, Pagination } from "swiper";
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Container } from "./styles";
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const Caroussel = () => {
   return (
     <Container>
-      <Swiper pagination={true} navigation slidesPerView={1} loop={true}>
+      <Swiper
+        pagination={true}
+        navigation
+        slidesPerView={1}
+        loop={true}
+        autoplay={{ delay: 4000, disableOnInteraction: false }}
+      >
         <SwiperSlide>
           <img src="https://lojaewg.vteximg.com.br/arquivos/ids/159923/0930_banner_purificadores_v3.jpg?v=637687135171800000" />
         </SwiperSlide>
