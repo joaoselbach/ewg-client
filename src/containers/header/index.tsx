@@ -10,8 +10,8 @@ import {
   Title,
 } from "./styles";
 
-import Phone from "../../assets/phone.svg";
-import Whatsapp from "../../assets/whatsapp.svg";
+import Phone from "../../assets/svg/phone.svg";
+import Whatsapp from "../../assets/svg/whatsapp.svg";
 
 const Header = () => {
 
