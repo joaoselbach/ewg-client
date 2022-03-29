@@ -51,7 +51,13 @@ export const ItemSubListContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 20px;
   width: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
 `;
 
 export const ItemSubList = styled.ul`
@@ -59,7 +65,7 @@ export const ItemSubList = styled.ul`
   position: absolute;
   width: 100%;
   left: 0;
-  top: 45px;
+  top: 100%;
   background-color: #fff;
   border-bottom: 2px solid #ec1415;
 `;
@@ -67,14 +73,21 @@ export const ItemSubList = styled.ul`
 export const ItemSubListTitle = styled.li`
   margin-top: 15px;
   list-style-type: none;
-  font-size: 14px;
-  color: red;
+  font-size: 18px;
+  color: #ec1415;
+  transition: 0.4s;
+  cursor: pointer;
+
+  :hover {
+    transform: translateX(10px);
+  }
 `;
 
-export const Products = styled.div``;
+export const Products = styled.div`
+  padding: 20px 50px;
+`;
 
 export const ProductImg = styled.div`
-  font-size: 26px;
-  color: #2e2e2e;
+  width: 100%;
 `;
 
