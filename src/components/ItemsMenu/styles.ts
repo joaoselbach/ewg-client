@@ -88,6 +88,6 @@ export const Products = styled.div`
 `;
 
 export const ProductImg = styled.div`
-  width: 100%;
+  width: 50%;
 `;
 
