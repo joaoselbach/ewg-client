@@ -12,7 +12,6 @@ const Home: React.FC = () => {
       </Head>
 
       <Header />
-      <h1>Olá</h1>
     </>
   );
 };

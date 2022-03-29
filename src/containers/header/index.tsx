@@ -1,9 +1,45 @@
-import * as Styled from "./styles";
+import NavBar from "../../components/Navbar";
+import ItemsList from "../../components/ItemsMenu";
+
+import {
+  ClientArea,
+  Container,
+  Info,
+  NavInfo,
+  NavInfoBackground,
+  Title,
+} from "./styles";
+
+import Phone from "../../assets/phone.svg";
+import Whatsapp from "../../assets/whatsapp.svg";
 
 const Header = () => {
 
   return (
-    <h1>Navbar</h1>
+    <Container>
+      <NavInfoBackground>
+        <NavInfo>
+          <Info>
+            <Title>Blog</Title>
+            <Title>
+              <Phone />
+              (41) 3018-6275
+            </Title>
+            <Title>
+              <Whatsapp />
+              (41) 99677-2417
+            </Title>
+          </Info>
+          <ClientArea>
+            <Title>Entrar</Title>
+            <Title>Meus Pedidos</Title>
+          </ClientArea>
+        </NavInfo>
+      </NavInfoBackground>
+
+      <NavBar />
+      <ItemsList />
+    </Container>
   );
 };
 
